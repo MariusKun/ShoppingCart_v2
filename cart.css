@@ -1,0 +1,62 @@
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(102, 102, 241);
+}
+
+.cartList{
+
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.cartCard {
+
+    width: 170px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    margin: 10px;
+    overflow: hidden;
+}
+
+td{
+    width: 150px;
+    text-align: center;
+    border: 2px solid rgb(50, 91, 50);
+    background-color: white;
+    
+}
+
+body {
+    background-color: rgb(218, 223, 223);
+}
+
+
+
+img {
+    max-width: 140px;
+    
+}
+
+table{
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+.addButton {
+    background-color: green;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.removeButton {
+    background-color: red;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}

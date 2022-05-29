@@ -1,0 +1,79 @@
+body {
+    font-family: monospace;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 170px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+.toolbar {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.barContainer {
+    padding-left: 10px;
+}
+
+.cartButton{
+    background-color: rgb(69, 132, 149);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    font-family: monospace;
+    margin-top: -5px;
+    
+}
+
+.cartButton:hover{
+    background-color: rgb(208, 60, 60);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
